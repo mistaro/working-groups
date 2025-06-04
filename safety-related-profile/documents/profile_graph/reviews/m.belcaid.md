@@ -21,7 +21,7 @@ Remarks :
 	- Add an Example: A Graph with 2 Nodes and the bindings Tensors inputs/ouputs.
 
 		[input_tensor]--+
-						        |--[Add]--[add_output_tensor]--[Relu]--[output_tensor]
+			 	|--[Add]--[add_output_tensor]--[Relu]--[output_tensor]
 		[const_tensor]--+
 
 
@@ -36,6 +36,6 @@ Remarks on Operators and Nodes [T03a] and [T03b] :
 		Example:An Operator [Add] used twiced in this Graph.
 
 		Input a ----+
-					       |--[Add]--(Output c)---+
+			     |--[Add]--(Output c)---+
 		Input b ----+                        |--[Add]--( Output e)
 		Input d ----------------------------+
